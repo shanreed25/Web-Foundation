@@ -1,13 +1,13 @@
 # Chrome Developer Tools
 
 ## Inspecting CSS with Chrome DevTools
-- Chrome DevTools has several tabs, each with a specific purpose for web development and debugging
-![Chrome DevTools Tabs](assets/chromedevtoolstabs.png)
+- Chrome DevTools provides a comprehensive set of tools for inspecting, debugging, and modifying CSS on web page
+![Chrome DevTools Tabs](assets/cssdevtoolschrome.png)
 - **Inspect Element** ![Inspect Element](assets/inspectelement.png) 
     - allows users to select an element on the webpage and instantly view its corresponding HTML and CSS in the DevTools
 - **Toggle Device Toolbar** ![Toggle Device Toolbar](assets/chromedevtoolstoggledevice.png)
     - enables "Device Mode," which simulates how a webpage appears on different screen sizes and devices, aiding in responsive design testing
-- **Elements Tab:**
+- **Elements Tab**
     - primary tab for CSS development, it contains several sub-tabs and sections specifically for inspecting and modifying styles
     - **Styles Tab**
         - displays all the CSS rules applied to the currently selected HTML element, including rules inherited from parent elements and user-agent styles (default browser styles)
@@ -31,7 +31,11 @@ _______________________________________________________
 
 ### Capture Overview
 - provides a comprehensive summary of the CSS used on a web page, offering insights into various aspects of the stylesheet
-
+- summary contains several sections including counts of elements, inline styles, external styles, media queries, colors, font info, unused declarations and more
+- analyzing this summary can help you gain insights into your CSS, identify areas for improvement, and enhance the performance and accessibility of your web pages
+- **Navigate to the CSS Overview Panel**
+    1. Click the menu(three dots in right corner) in the DevTools toolbar
+    2. Select `More Tools` then Select `CSS Overview` then click the `Capture Overview` button
 
 ### CSS Chrome Extensions
 - [Pesticide](https://chromewebstore.google.com/detail/pesticide/bakpbgckdnepkmkeaiomhmfcnejndkbi)

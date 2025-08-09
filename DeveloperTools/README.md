@@ -12,13 +12,9 @@
     - [VS Code Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
         - provides a rich set of icons for files and folders within the editor's file explorer to enhance the visual organization and identification of different file types and project structures
 
-### Accessibility
-- [Silktide Accessibility Checker](https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah)
-    - a chrome browser extension that simulate what a person with visual impairment might hear as they are browsing a website
-    - you can use it to test your website against over 200 website accessibility checks 
 
+### Specific Developer Tools
+- [Accessibility DevTools](./AccessibilityTools.md)
+- [CSS Dev Tools](./CSSDevTools.md)
 
-### CSS
-- [Pesticide](https://chromewebstore.google.com/detail/pesticide/bakpbgckdnepkmkeaiomhmfcnejndkbi)
-    - a CSS debugging tool that inserts outlines onto all elements to help with debugging layout issues
 
